@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="search">
+        <input type="text" name="searchBox" id="searchBox" class="searchBox" placeholder="Enter The Movie Name...">
+        <input type="button" value="Search Movie" class="btn" id="searchButton" onclick="searchMovie()">
+    </div>
+    <div class="container">
+        <div>
+            <h1 id="movieTitle"></h1>
+            <p id="Description"></p>
+            <p>Genre : <span id="Genre"></span></p>
+            <p>Actors : <span id="Actors"></span></p>
+            <p>Director : <span id="Director"></span></p>
+            <p>Writer : <span id="Writer"></span></p>
+            <p>BOX-Office Collection : <span id="Collection"></span></p>
+            <p>IMDB Rating : <span id="Rating"></span></p>
+        </div>
+        <img src="" alt="Movie Poster" id="Poster" class="img-fluid">
+    </div>
+</body>
+<script src="./app.js"></script>
+<!--d357ab90 api key-->
+<!--https://www.omdbapi.com/?i=tt3896198&apikey=d357ab90-->
+</html>
